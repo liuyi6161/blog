@@ -7,14 +7,7 @@ categories:
  - 其它
 tags:
  - docker
-keys:
- - 'e10adc3949ba59abbe56e057f20f883e' 
- - '4f2016c6b934d55bd7120e5d0e62cce3' 
- - '89ad7e83ddeb05ca58f554c5384a0c1b' 
 ---
----//123456---
----//我爱你---
----/何艾我爱你---
 ## 前言
 
 万物的初始：centos7 64位 内核3.10以上 且能够访问外网(如果通过安装包安装docker可以不需要)。首先这边简单阐述一下gitlab CI流水线的工作流程：首先通过配置CI runner然后编写.gitlab-ci.yml脚本定义如何执行。 执行runner时本质是在docker容器中进行下载你在脚本中定义的镜像并启动镜像（有其他见解欢迎提出），然后再这个镜像执行你想要进行的操作（script)。
