@@ -1,7 +1,7 @@
 module.exports = {
   "title": "言否",
   "description": "Enjoy myself,do what I want to do",
-  "dest": "public",
+  "dest": "myfile",
    base: '/blog/',
    locales: {
      '/': {
