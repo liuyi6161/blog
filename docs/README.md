@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: 
-bgImage: '/hero.png'
+bgImage: '/image/hero.png'
 bgImageStyle: {
       height: '400px',
       background-position: 'top center'

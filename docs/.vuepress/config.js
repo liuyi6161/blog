@@ -13,7 +13,7 @@ module.exports = {
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.png"
+        "href": "/image/favicon.png"
       }
     ],
     [
@@ -35,7 +35,7 @@ module.exports = {
 	        position: 'fixed',
 	        right: '110px',
 	        bottom: '50px',
-	        opacity: '0.9' 
+	        opacity: '0.9'
 	      },
 	      messageStyle: {
 	        position: 'fixed',
@@ -54,25 +54,25 @@ module.exports = {
                 {
                     name: '公子向北走',
                     artist: '李春花',
-					url: './gzxbz.mp3',
+					url: './music/gzxbz.mp3',
                     cover: 'http://p2.music.126.net/EeCOXlqwFfuY4vHsS0foKA==/109951163876806880.jpg?param=300x300'
                 },
 				{
 				    name: '果汁分你一半',
 				    artist: '小菜头',
-					url: './gzfnyb.mp3',
+					url: './music/gzfnyb.mp3',
 					cover: 'http://p2.music.126.net/k0C0pZG4Soq86gXfXy38QQ==/109951164742942259.jpg'
 				},
 				{
 				    name: '世间美好与你环环相扣',
 				    artist: '柏松',
-				    url: './sjmhynhhxk.mp3',
+				    url: './music/sjmhynhhxk.mp3',
 				    cover: 'http://p1.music.126.net/DK1_4sP_339o5rowMdPXdw==/109951164071024476.jpg?param=300x300'
 				},
 				{
 				    name: '微光',
 				    artist: '袁野夕',
-				    url: './wg.mp3',
+				    url: './music/wg.mp3',
 				    cover: 'http://y.gtimg.cn/music/photo_new/T002R300x300M0000001FV2R1MJxUW.jpg'
 				}
             ],
@@ -152,26 +152,21 @@ module.exports = {
       }
     },
     "friendLink": [
-      {
-        "title": "木叶村",
-        "desc": "想做一条会飞的咸鱼",
-        "email": "xihuangou@qq.com",
-        "link": "https://chengxinkaicxk.github.io/blog/"
-      },{
+     {
 		  "title": "木叶村",
 		  "desc": "想做一条会飞的咸鱼",
 		  "email": "xihuangou@qq.com",
 		  "link": "http://madmanxk.gitee.io/blog/"
 	  }
     ],
-    "logo": "/logo.png",
+    "logo": "/image/logo.png",
 	// 搜索设置
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "sixone",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/image/avatar.png",
     "startYear": "2019"
   },
   "markdown": {
