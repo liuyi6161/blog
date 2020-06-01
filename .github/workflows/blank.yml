@@ -23,7 +23,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
       	# 之前项目的私钥，对应的要填写正确
-        ACTIONS_DEPLOY_KEY: ${{secrets.187}}
+        ACTIONS_DEPLOY_KEY: ${{secrets.ACCESS_TOKEN}}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: public
         # PUBLISH_DIR: docs/.vuepress/dist
