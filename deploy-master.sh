@@ -12,6 +12,6 @@ git commit -m 'update'
 #git push -f https://github.com/liuyi6161/liuyi6161.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:liuyi6161/blog.git master
+ git push -f git@github.com:liuyi6161/blog.git master:gh-pages
 
 cd -
