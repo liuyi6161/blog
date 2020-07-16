@@ -153,10 +153,10 @@ module.exports = {
     },
     "friendLink": [
      {
-		  "title": "木叶村",
-		  "desc": "想做一条会飞的咸鱼",
-		  "email": "xihuangou@qq.com",
-		  "link": "http://madmanxk.gitee.io/blog/"
+		  "title": "言否",
+		  "desc": "知无不言，言而不否",
+		  "email": "577309454@qq.com",
+		  "link": "http://yanfou.gitee.io/blog/"
 	  }
     ],
     "logo": "/image/logo.png",
